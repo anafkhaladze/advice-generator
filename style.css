@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(251, 252, 169);
+}
+
+.container {
+    text-align: center;
+    background: rgb(214, 252, 140);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(70, 97, 17);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.966);
+}
+
+.container h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#get-advice{
+    background-color: rgb(163, 219, 52);
+    border: 0.3px solid rgb(70, 97, 17);
+    border-radius: 5px;
+}
+
+#get-advice:hover{
+    background-color: rgb(70, 97, 17);
+    color: white;
+}
